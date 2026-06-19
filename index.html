@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คุณฉัตรทอง เจือจันทร์ | Presentation CV</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-leaf leaf-logo animate-float"></i>
+                <span class="logo-text">C. Chuachan</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">หน้าแรก</a></li>
+                <li><a href="#about">ข้อมูลทั่วไป</a></li>
+                <li><a href="#education">การศึกษา</a></li>
+                <li><a href="#experience">ประสบการณ์ทำงาน</a></li>
+                <li><a href="#training">ดูงานต่างประเทศ</a></li>
+                <li><a href="#publications">ผลงานวิชาการ</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge fade-in-up">
+                    <i class="fa-solid fa-seedling"></i> ผู้อำนวยการส่วนอนุรักษ์และฟื้นฟูพันธุ์พืช
+                </div>
+                <h1 class="hero-title fade-in-up delay-1">
+                    นายฉัตรทอง เจือจันทร์
+                </h1>
+                <h2 class="hero-subtitle fade-in-up delay-2">
+                    Mr. Chatthong Chuachan
+                </h2>
+                <p class="hero-description fade-in-up delay-3">
+                    นักวิชาการผู้เชี่ยวชาญด้านพฤกษศาสตร์ การอนุรักษ์พันธุ์พืช และการบริหารจัดการสวนพฤกษศาสตร์ ควบคู่ไปกับใบประกอบวิชาชีพเภสัชกรรมไทย บูรณาการองค์ความรู้ธรรมชาติวิทยาและสมุนไพรไทย
+                </p>
+                <div class="hero-actions fade-in-up delay-4">
+                    <a href="#about" class="btn btn-primary">
+                        ทำความรู้จักเพิ่มเติม <i class="fa-solid fa-arrow-down-long"></i>
+                    </a>
+                    <a href="#publications" class="btn btn-outline">
+                        ดูผลงานวิชาการ
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Hero Illustration Image (Meditation) -->
+            <div class="hero-photo-container fade-in-up delay-2">
+                <div class="hero-ill-wrapper">
+                    <div class="organic-border-frame">
+                        <img src="Dad_CV/Meditation.jpg" alt="Nature Study & Meditation" class="hero-ill-image">
+                        <div class="frame-overlay-badge">
+                            <i class="fa-solid fa-peace"></i> Botanical Reflection
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Info Section -->
+    <section id="about" class="about-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Bio-Data</span>
+                <h2 class="section-title">ข้อมูลทั่วไป</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="about-flex-container">
+                <!-- Left: Profile Image (Drunker) -->
+                <div class="about-photo-col">
+                    <div class="profile-card-fixed">
+                        <div class="profile-frame-fixed">
+                            <img src="Dad_CV/Drunker.jpg" alt="คุณฉัตรทอง เจือจันทร์" class="profile-image-fixed">
+                        </div>
+                        <h3 class="profile-name">ฉัตรทอง เจือจันทร์</h3>
+                        <p class="profile-title">ผู้อำนวยการส่วนอนุรักษ์และฟื้นฟูพันธุ์พืช</p>
+                    </div>
+                </div>
+
+                <!-- Right: Info cards (strictly from PDF data, no extra description, rings icon replaced with heart) -->
+                <div class="about-info-col">
+                    <div class="about-grid-fixed">
+                        <!-- Info Card 1: Birth -->
+                        <div class="info-card-fixed">
+                            <div class="card-icon-fixed">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="card-info-details">
+                                <h3>วันเดือนปีเกิด</h3>
+                                <p class="info-highlight-fixed">วันอาทิตย์ที่ 24 พฤษภาคม พ.ศ. 2513</p>
+                                <p class="info-sub-fixed">เวลา 9.00 น. ปีจอ</p>
+                            </div>
+                        </div>
+
+                        <!-- Info Card 2: Birthplace -->
+                        <div class="info-card-fixed">
+                            <div class="card-icon-fixed">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div class="card-info-details">
+                                <h3>สถานที่เกิด</h3>
+                                <p class="info-highlight-fixed">จังหวัดสุรินทร์</p>
+                            </div>
+                        </div>
+
+                        <!-- Info Card 3: Marriage (Icon replaced with solid heart logo) -->
+                        <div class="info-card-fixed">
+                            <div class="card-icon-fixed">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="card-info-details">
+                                <h3>สถานภาพครอบครัว</h3>
+                                <p class="info-highlight-fixed">สมรส</p>
+                            </div>
+                        </div>
+
+                        <!-- Info Card 4: Thai Medicine License -->
+                        <div class="info-card-fixed special-card-fixed">
+                            <div class="card-icon-fixed">
+                                <i class="fa-solid fa-mortar-pestle"></i>
+                            </div>
+                            <div class="card-info-details">
+                                <h3>ใบประกอบวิชาชีพการแพทย์แผนไทย</h3>
+                                <p class="info-highlight-fixed">ประเภท เภสัชกรรมไทย</p>
+                                <p class="info-sub-fixed">ขึ้นทะเบียนเป็นผู้ประกอบโรคศิลปะ พ.ศ. 2554</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Education</span>
+                <h2 class="section-title">ประวัติการศึกษา</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="education-timeline">
+                <!-- Timeline Item 1 -->
+                <div class="edu-item">
+                    <div class="edu-dot"></div>
+                    <div class="edu-year">พ.ศ. 2536</div>
+                    <div class="edu-card">
+                        <span class="edu-degree">ปริญญาเทคโนโลยีการเกษตรบัณฑิต</span>
+                        <h4 class="edu-major">สาขาพืชศาสตร์ (พืชไร่)</h4>
+                        <p class="edu-institute"><i class="fa-solid fa-graduation-cap"></i> สถาบันเทคโนโลยีการเกษตรแม่โจ้</p>
+                        <div class="edu-desc">ศึกษาค้นคว้าวิชาการด้านพืชศาสตร์และการจัดการพืชไร่ ซึ่งเป็นแกนรากฐานวิชาการพฤกษศาสตร์</div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="edu-item">
+                    <div class="edu-dot"></div>
+                    <div class="edu-year">พ.ศ. 2544</div>
+                    <div class="edu-card">
+                        <span class="edu-degree">ปริญญาวิทยาศาสตรมหาบัณฑิต</span>
+                        <h4 class="edu-major">สาขาส่งเสริมการเกษตร</h4>
+                        <p class="edu-institute"><i class="fa-solid fa-graduation-cap"></i> มหาวิทยาลัยแม่โจ้</p>
+                        <div class="edu-desc">มุ่งเน้นการวิจัยเชิงประยุกต์ด้านการส่งเสริมและถ่ายทอดเทคโนโลยีการเกษตรในระดับชุมชน</div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="edu-item special-edu">
+                    <div class="edu-dot"></div>
+                    <div class="edu-year">พ.ศ. 2554</div>
+                    <div class="edu-card">
+                        <span class="edu-degree">ใบขึ้นทะเบียนประกอบวิชาชีพ</span>
+                        <h4 class="edu-major">ผู้ประกอบโรคศิลปะสาขาการแพทย์แผนไทย (เภสัชกรรมไทย)</h4>
+                        <p class="edu-institute"><i class="fa-solid fa-certificate"></i> กระทรวงสาธารณสุข</p>
+                        <div class="edu-desc">ได้รับการขึ้นทะเบียนและรับรองอย่างเป็นทางการในฐานะเภสัชกรแพทย์แผนไทย</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Career Path</span>
+                <h2 class="section-title">ประสบการณ์การทำงาน</h2>
+                <div class="divider"></div>
+            </div>
+
+            <!-- Career Track Timeline -->
+            <div class="career-track">
+                <!-- Career Item 1 -->
+                <div class="career-item">
+                    <div class="career-marker">
+                        <span class="career-year">2536</span>
+                    </div>
+                    <div class="career-details">
+                        <h3 class="career-title">นักเกษตร (ลูกจ้าง)</h3>
+                        <h4 class="career-org">สำนักงานเกษตรจังหวัดสุรินทร์</h4>
+                        <p class="career-desc">ปฏิบัติงานด้านข้อมูลและการวิเคราะห์พรรณพืชในจังหวัดสุรินทร์</p>
+                    </div>
+                </div>
+
+                <!-- Career Item 2 -->
+                <div class="career-item">
+                    <div class="career-marker">
+                        <span class="career-year">2536</span>
+                    </div>
+                    <div class="career-details">
+                        <h3 class="career-title">เจ้าหน้าที่การเกษตร</h3>
+                        <h4 class="career-org">กองสวนสาธารณะ สำนักสวัสดิการสังคม กรุงเทพมหานคร</h4>
+                        <p class="career-desc">ปฏิบัติงานรับราชการในสายงานส่งเสริมและดูแลการจัดแต่งพรรณไม้เมืองหลวง (ลาออกจากราชการ)</p>
+                    </div>
+                </div>
+
+                <!-- Career Item 3 -->
+                <div class="career-item">
+                    <div class="career-marker">
+                        <span class="career-year">2536 - 2549</span>
+                    </div>
+                    <div class="career-details">
+                        <h3 class="career-title">พนักงานวิทยาศาสตร์ 3 (ฝ่ายสวนพฤกษศาสตร์)</h3>
+                        <h4 class="career-org">องค์การสวนพฤกษศาสตร์</h4>
+                        <p class="career-desc">มุ่งเน้นการทำงานในห้องปฏิบัติการ การคัดจำแนกพฤกษศาสตร์เชิงลึก และงานพฤกษศาสตร์สาขาต่างๆ</p>
+                    </div>
+                </div>
+
+                <!-- Career Item 4 -->
+                <div class="career-item">
+                    <div class="career-marker">
+                        <span class="career-year">2550</span>
+                    </div>
+                    <div class="career-details">
+                        <h3 class="career-title">หัวหน้าส่วนอนุรักษ์พันธุ์พืช 7</h3>
+                        <h4 class="career-org">สำนักพัฒนาและปลูกบำรุง, องค์การสวนพฤกษศาสตร์</h4>
+                        <p class="career-desc">วางกลยุทธ์การรักษาสายพันธุ์พืชสมุนไพรและพืชพันธุ์หายากในประเทศไทย</p>
+                    </div>
+                </div>
+
+                <!-- Career Item 5 -->
+                <div class="career-item highlight-career">
+                    <div class="career-marker">
+                        <span class="career-year">2552 - 2555</span>
+                    </div>
+                    <div class="career-details">
+                        <div class="status-badge"><i class="fa-solid fa-award"></i> บทบาทควบตำแหน่ง</div>
+                        <h3 class="career-title">รักษาการตำแหน่งผู้อำนวยการสำนักพัฒนาและปลูกบำรุง</h3>
+                        <h4 class="career-org">องค์การสวนพฤกษศาสตร์</h4>
+                        <p class="career-desc">รับหน้าที่ควบการบริหารจัดการโครงการพัฒนาและวางระบบบำรุงพืชมีชีวิตขององค์การทั้งหมด</p>
+                    </div>
+                </div>
+
+                <!-- Career Item 6 -->
+                <div class="career-item">
+                    <div class="career-marker">
+                        <span class="career-year">2555</span>
+                    </div>
+                    <div class="career-details">
+                        <h3 class="career-title">หัวหน้าส่วนอนุรักษ์พันธุ์พืช 8</h3>
+                        <h4 class="career-org">สำนักพัฒนาและปลูกบำรุง, องค์การสวนพฤกษศาสตร์</h4>
+                        <p class="career-desc">วิจัยควบคุมคุณภาพพืชมีชีวิตในโครงการอนุรักษ์และประเมินสภาวะของสายพันธุ์เฉพาะถิ่น</p>
+                    </div>
+                </div>
+
+                <!-- Career Item 7 -->
+                <div class="career-item">
+                    <div class="career-marker">
+                        <span class="career-year">2560</span>
+                    </div>
+                    <div class="career-details">
+                        <h3 class="career-title">หัวหน้าส่วนรวบรวมพันธุ์และจัดการพืชมีชีวิต 8</h3>
+                        <h4 class="career-org">สำนักวิจัยและอนุรักษ์, องค์การสวนพฤกษศาสตร์</h4>
+                        <p class="career-desc">จัดเก็บข้อมูลฐานระบบพันธุศาสตร์พืชมีชีวิตและการแลกเปลี่ยนวิชาการทางพฤกษศาสตร์ระดับสากล</p>
+                    </div>
+                </div>
+
+                <!-- Career Item 8 current -->
+                <div class="career-item current-position">
+                    <div class="career-marker">
+                        <span class="career-year">2569 - ปัจจุบัน</span>
+                    </div>
+                    <div class="career-details">
+                        <div class="current-label"><i class="fa-solid fa-star animate-pulse"></i> ตำแหน่งปัจจุบัน</div>
+                        <h3 class="career-title">ผู้อำนวยการส่วนอนุรักษ์และฟื้นฟูพันธุ์พืช</h3>
+                        <h4 class="career-org">สำนักจัดการสวนพฤกษศาสตร์, องค์การสวนพฤกษศาสตร์</h4>
+                        <p class="career-desc">รับผิดชอบวางนโยบายหลัก วิเคราะห์และติดตามการอนุรักษ์-ฟื้นฟูพันธุ์พืชและระบบนิเวศป่าไม้ของประเทศไทย</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Study Visits / Training Section -->
+    <section id="training" class="training-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Global Experience</span>
+                <h2 class="section-title">การศึกษาดูงานด้านสวนพฤกษศาสตร์ต่างประเทศ</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="training-grid">
+                <!-- Country 1: UK -->
+                <div class="training-card card-uk">
+                    <div class="card-bg-overlay"></div>
+                    <div class="training-badge">พ.ศ. 2537</div>
+                    <div class="training-icon">
+                        <i class="fa-solid fa-tree-city"></i>
+                    </div>
+                    <h3 class="training-country">สหราชอาณาจักร (UK)</h3>
+                    <h4 class="training-loc">Kew Garden & Wisley</h4>
+                    <p class="training-desc">เข้ารับการฝึกอบรมด้าน <strong>"การจัดการโรงเรือนและพืชสวน"</strong> ณ สวนพฤกษศาสตร์คิว (Kew Garden), Wakehurst Place และสมาคมพืชสวน Royal Horticultural Society's Gardens (Wisley)</p>
+                </div>
+
+                <!-- Country 2: China -->
+                <div class="training-card card-china">
+                    <div class="card-bg-overlay"></div>
+                    <div class="training-badge">พ.ศ. 2554</div>
+                    <div class="training-icon">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h3 class="training-country">ประเทศจีน</h3>
+                    <h4 class="training-loc">South China Botanical Garden</h4>
+                    <p class="training-desc">ศึกษาดูงานด้านการวิจัย สรรพสิ่ง และระบบสวนพฤกษศาสตร์การอนุรักษ์สายพันธุ์เขตกึ่งร้อน</p>
+                </div>
+
+                <!-- Country 3: Singapore -->
+                <div class="training-card card-singapore">
+                    <div class="card-bg-overlay"></div>
+                    <div class="training-badge">พ.ศ. 2557</div>
+                    <div class="training-icon">
+                        <i class="fa-solid fa-cloud-sun"></i>
+                    </div>
+                    <h3 class="training-country">ประเทศสิงคโปร์</h3>
+                    <h4 class="training-loc">Singapore Botanic Gardens & Gardens by the Bay</h4>
+                    <p class="training-desc">ศึกษาและสำรวจรูปแบบนวัตกรรมการสร้างระบบนิเวศจำลอง การท่องเที่ยวเชิงพฤกษศาสตร์ และการจัดการสวนยุคใหม่</p>
+                </div>
+
+                <!-- Country 4: Indonesia -->
+                <div class="training-card card-indonesia">
+                    <div class="card-bg-overlay"></div>
+                    <div class="training-badge">พ.ศ. 2558</div>
+                    <div class="training-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3 class="training-country">ประเทศอินโดนีเซีย</h3>
+                    <h4 class="training-loc">Purwodadi Botanic Garden</h4>
+                    <p class="training-desc">ศึกษาดูงานระบบการจัดการสวนพฤกษศาสตร์ในโซนแล้งและแนวทางรวบรวมพืชสมุนไพรพื้นถิ่น</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Publications Section (Links removed as requested) -->
+    <section id="publications" class="publications-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Research Database</span>
+                <h2 class="section-title">ผลงานทางวิชาการและงานวิจัย</h2>
+                <div class="divider"></div>
+            </div>
+
+            <!-- Category Filter Tabs -->
+            <div class="filter-wrapper">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">
+                        <i class="fa-solid fa-list"></i> ผลงานทั้งหมด
+                    </button>
+                    <button class="filter-tab" data-filter="books">
+                        <i class="fa-solid fa-book"></i> หนังสือ/ตำรา
+                    </button>
+                    <button class="filter-tab" data-filter="local">
+                        <i class="fa-solid fa-house-chimney"></i> ผลงานวิจัยในประเทศ
+                    </button>
+                    <button class="filter-tab" data-filter="international">
+                        <i class="fa-solid fa-globe"></i> ผลงานวิชาการระดับสากล
+                    </button>
+                </div>
+                
+                <!-- Search bar -->
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="pub-search" placeholder="ค้นหาชื่องานวิจัย ผู้แต่ง หรือคีย์เวิร์ด...">
+                </div>
+            </div>
+
+            <!-- Publications List -->
+            <div class="publications-list" id="publications-container">
+                
+                <!-- Pub 1 -->
+                <div class="pub-card" data-category="books" data-search="พืชสกุลพริกไทยในประเทศไทย อรุณรัตน์ ฉวีราช รุ่งลาวัลย์ สุดมูล ธวัดชัย ธานี ปิยะ โมคมุล ฉัตรทอง เจือจันทร์ 2548">
+                    <div class="pub-meta">
+                        <span class="pub-tag tag-book"><i class="fa-solid fa-book"></i> หนังสือ</span>
+                        <span class="pub-year">พ.ศ. 2548</span>
+                    </div>
+                    <h3 class="pub-title">พืชสกุลพริกไทยในประเทศไทย</h3>
+                    <p class="pub-authors">อรุณรัตน์ ฉวีราช, รุ่งลาวัลย์ สุดมูล, ธวัดชัย ธานี, ปิยะ โมคมุล และ <strong>ฉัตรทอง เจือจันทร์</strong></p>
+                    <p class="pub-details"><i class="fa-solid fa-print"></i> ขอนแก่นการพิมพ์, ขอนแก่น. จำนวน 114 หน้า. <strong>ISBN: 974-666-554-5</strong></p>
+                    <div class="pub-badge-group">
+                        <span class="pub-spec-badge">อนุกรมวิธานพืช</span>
+                        <span class="pub-spec-badge">สกุลพริกไทย (Piper)</span>
+                    </div>
+                </div>
+
+                <!-- Pub 2 -->
+                <div class="pub-card" data-category="local" data-search="ภูมิปัญญาพื้นบ้านกับการใช้ประโยชน์พืชสมุนไพร บริเวณแนวป่าพนมดงรัก-ผาแต้ม จันทร์เพ็ญ อินทรประเสริฐ ทวีศักดิ์ จึงวัฒนตระกูล ประมุข เพ็ญสุต ฉัตรทอง เจือจันทร์ ศันสนีย์ ชวนะกุล 2555">
+                    <div class="pub-meta">
+                        <span class="pub-tag tag-local"><i class="fa-solid fa-file-lines"></i> งานวิจัยในประเทศ</span>
+                        <span class="pub-year">พ.ศ. 2555</span>
+                    </div>
+                    <h3 class="pub-title">ภูมิปัญญาพื้นบ้านกับการใช้ประโยชน์พืชสมุนไพร บริเวณแนวป่าพนมดงรัก-ผาแต้ม</h3>
+                    <p class="pub-authors">จันทร์เพ็ญ อินทรประเสริฐ, ทวีศักดิ์ จึงวัฒนตระกูล, ประมุข เพ็ญสุต, <strong>ฉัตรทอง เจือจันทร์</strong> และ ศันสนีย์ ชวนะกุล</p>
+                    <p class="pub-details"><i class="fa-solid fa-hotel"></i> เสนอ ณ โรงแรมทีเคพาเลซ กรุงเทพมหานคร (ลงวันที่ 02/02/2555)</p>
+                    <div class="pub-badge-group">
+                        <span class="pub-spec-badge">สมุนไพรพื้นบ้าน</span>
+                        <span class="pub-spec-badge">ป่าพนมดงรัก</span>
+                        <span class="pub-spec-badge">ผาแต้ม</span>
+                    </div>
+                </div>
+
+                <!-- Pub 3 -->
+                <div class="pub-card" data-category="international" data-search="Screening of plants acting against Heterometrus laoticus scorpion venom activity on fibroblast cell lysis Journal of ethnopharmacology Nunthawun Uawonggul Arunrat Chaveerach Sompong Thammasirirak Tarinee Arkaravichien Chattong Chuachan Sakda Daduang 2006">
+                    <div class="pub-meta">
+                        <span class="pub-tag tag-intl"><i class="fa-solid fa-earth-americas"></i> วารสารนานาชาติ</span>
+                        <span class="pub-year">ค.ศ. 2006 (พ.ศ. 2549)</span>
+                    </div>
+                    <h3 class="pub-title">Screening of plants acting against Heterometrus laoticus scorpion venom activity on fibroblast cell lysis</h3>
+                    <p class="pub-authors">Nunthawun Uawonggul, Arunrat Chaveerach, Sompong Thammasirirak, Tarinee Arkaravichien, <strong>Chattong Chuachan</strong>, Sakda Daduang</p>
+                    <p class="pub-details"><i class="fa-solid fa-award"></i> Published in <strong>Journal of Ethnopharmacology</strong>, Volume 103, Pages 201–207</p>
+                    <div class="pub-badge-group">
+                        <span class="pub-spec-badge font-en">Scorpion Venom</span>
+                        <span class="pub-spec-badge font-en">Fibroblast Lysis</span>
+                        <span class="pub-spec-badge font-en">Impact Factor Journal</span>
+                    </div>
+                </div>
+
+                <!-- Pub 4 -->
+                <div class="pub-card" data-category="international" data-search="Plant extract activities against the fibroblast cell lysis by honey bee venom Journal of Medicinal Plants Research Nunthawun Uawonggul Sompong Thammasirirak Arunrat Chaveerach Chattong Chuachan Jureerut Daduang Sakda Daduang 2011">
+                    <div class="pub-meta">
+                        <span class="pub-tag tag-intl"><i class="fa-solid fa-earth-americas"></i> วารสารนานาชาติ</span>
+                        <span class="pub-year">ค.ศ. 2011 (พ.ศ. 2554)</span>
+                    </div>
+                    <h3 class="pub-title">Plant extract activities against the fibroblast cell lysis by honey bee venom</h3>
+                    <p class="pub-authors">Nunthawun Uawonggul, Sompong Thammasirirak, Arunrat Chaveerach, <strong>Chattong Chuachan</strong>, Jureerut Daduang, and Sakda Daduang</p>
+                    <p class="pub-details"><i class="fa-solid fa-award"></i> Published in <strong>Journal of Medicinal Plants Research</strong>, Vol. 5(10), pp. 1978–1986</p>
+                    <div class="pub-badge-group">
+                        <span class="pub-spec-badge font-en">Honey Bee Venom</span>
+                        <span class="pub-spec-badge font-en">Antivenom Plant Extract</span>
+                    </div>
+                </div>
+
+                <!-- Pub 5 -->
+                <div class="pub-card" data-category="local" data-search="Study on traditional medicine properties of the genus Piper in Thailand Research Khon Kaen University Research Fund Arunrat Chaveerach Runglawan Sudmoon Tawatchai Tanee Kowit Noikotr Chattong Chuachan 2011">
+                    <div class="pub-meta">
+                        <span class="pub-tag tag-local"><i class="fa-solid fa-file-lines"></i> งานวิจัยในประเทศ</span>
+                        <span class="pub-year">ค.ศ. 2011 (พ.ศ. 2554)</span>
+                    </div>
+                    <h3 class="pub-title">Study on traditional medicine properties of the genus Piper in Thailand</h3>
+                    <p class="pub-authors">Arunrat Chaveerach, Runglawan Sudmoon, Tawatchai Tanee, Kowit Noikotr and <strong>Chattong Chuachan</strong></p>
+                    <p class="pub-details"><i class="fa-solid fa-university"></i> Research supported by <strong>Khon Kaen University Research Fund</strong></p>
+                    <div class="pub-badge-group">
+                        <span class="pub-spec-badge font-en">Piper Genus</span>
+                        <span class="pub-spec-badge font-en">Traditional Medicine</span>
+                    </div>
+                </div>
+
+                <!-- Pub 6 -->
+                <div class="pub-card" data-category="international" data-search="Betel-like-Scented Piper Plant as Diverse Sources of Industrial and Medicinal Aromatic Chemicals Chaing Mai Journal Science Arisa Sanubol Arunrat Chaveerach Runglawan Sudmoon Tawatchai Tanee Kowit Noikotr Chattong Chuachan 2013">
+                    <div class="pub-meta">
+                        <span class="pub-tag tag-intl"><i class="fa-solid fa-earth-americas"></i> วารสารนานาชาติ</span>
+                        <span class="pub-year">ค.ศ. 2013 (พ.ศ. 2556)</span>
+                    </div>
+                    <h3 class="pub-title">Betel-like-Scented Piper Plant as Diverse Sources of Industrial and Medicinal Aromatic Chemicals</h3>
+                    <p class="pub-authors">Arisa Sanubol, Arunrat Chaveerach, Runglawan Sudmoon, Tawatchai Tanee, Kowit Noikotr and <strong>Chattong Chuachan</strong></p>
+                    <p class="pub-details"><i class="fa-solid fa-award"></i> Published in <strong>Chiang Mai Journal of Science</strong>, Vol. 41(5.1), pp. 1171–1181</p>
+                    <div class="pub-badge-group">
+                        <span class="pub-spec-badge font-en">Aromatic Chemicals</span>
+                        <span class="pub-spec-badge font-en">Piper species</span>
+                        <span class="pub-spec-badge font-en">Industrial Applications</span>
+                    </div>
+                </div>
+
+                <!-- Pub 7 -->
+                <div class="pub-card" data-category="international" data-search="First report of oleamide in Dillenia species and their pre-clinical tests Chinese of Journal Integrative Medicine Tikumporn Thooptianrat Runglawan Sudmoon Tawatchai Tanee Chattong Chuachan Thomas Liehr Arunrat Chaveerach 2017">
+                    <div class="pub-meta">
+                        <span class="pub-tag tag-intl"><i class="fa-solid fa-earth-americas"></i> วารสารนานาชาติ</span>
+                        <span class="pub-year">ค.ศ. 2017 (พ.ศ. 2560)</span>
+                    </div>
+                    <h3 class="pub-title">First report of oleamide in Dillenia species and their pre-clinical tests</h3>
+                    <p class="pub-authors">Tikumporn Thooptianrat, Runglawan Sudmoon, Tawatchai Tanee, <strong>Chattong Chuachan</strong>, Thomas Liehr, Arunrat Chaveerach</p>
+                    <p class="pub-details"><i class="fa-solid fa-award"></i> Published in <strong>Chinese Journal of Integrative Medicine</strong>, 27pp.</p>
+                    <div class="pub-badge-group">
+                        <span class="pub-spec-badge font-en">Oleamide</span>
+                        <span class="pub-spec-badge font-en">Dillenia Species</span>
+                        <span class="pub-spec-badge font-en">Pre-clinical Tests</span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div id="no-results" class="no-results-state hidden">
+                <i class="fa-regular fa-folder-open"></i>
+                <p>ไม่พบผลงานทางวิชาการที่ตรงกับเงื่อนไขการค้นหาของคุณ</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fa-solid fa-leaf leaf-logo"></i>
+                        <span class="logo-text">C. Chuachan</span>
+                    </div>
+                    <p class="footer-tagline">มุ่งมั่นวิจัยทางด้านวิทยาศาสตร์พืชและการแพทย์แผนไทยเพื่อสุขภาวะที่ยั่งยืน</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4>ลิงก์ทางลัด</h4>
+                    <ul>
+                        <li><a href="#hero">หน้าแรก</a></li>
+                        <li><a href="#about">ข้อมูลทั่วไป</a></li>
+                        <li><a href="#education">การศึกษา</a></li>
+                        <li><a href="#experience">ประสบการณ์การทำงาน</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>วิทยบริการและสืบค้น</h4>
+                    <ul>
+                        <li><a href="#publications">ผลงานวิจัยทั้งหมด</a></li>
+                        <li><a href="#training">การศึกษาดูงาน</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 นายฉัตรทอง เจือจันทร์. สงวนลิขสิทธิ์ทั้งหมด (All Rights Reserved).</p>
+                <p class="footer-dev">ออกแบบเพื่อใช้เป็น Presentation CV ส่วนบุคคล</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Leaf decor components -->
+    <div class="leaf-decor leaf-1"><i class="fa-solid fa-leaf"></i></div>
+    <div class="leaf-decor leaf-2"><i class="fa-solid fa-leaf"></i></div>
+    <div class="leaf-decor leaf-3"><i class="fa-solid fa-clover"></i></div>
+    <div class="leaf-decor leaf-4"><i class="fa-solid fa-seedling"></i></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
